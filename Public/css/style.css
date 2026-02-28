@@ -1,0 +1,153 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background: #002147;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation */
+nav {
+    background: #004080;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    z-index: 1000;
+}
+nav ul {
+  display: flex;
+  gap: 50px;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a.active, nav a:hover {
+    color: yellow;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #f4f4f4;
+    background-size: cover;
+    color: rgb(11, 11, 11);
+    text-align: center;
+    padding: 40px 10px;
+    align-content: space-around;
+}
+.admin {
+    background-color: #f4f4f4;
+    background-size: cover;
+    color: rgb(11, 11, 11);
+    text-align: center;
+    padding: 40px 10px;
+    align-content: space-around;
+}
+.student {
+    background-color: #f4f4f4;
+    background-size: cover;
+    color: rgb(11, 11, 11);
+    text-align: center;
+    padding: 40px 10px;
+    align-content: space-around;
+}
+.teacher {
+    background-color: #f4f4f4;
+    background-size: cover;
+    color: rgb(11, 11, 11);
+    padding: 10px 150px;
+    align-items: center;
+}
+.container{
+    display:flex;
+    gap:40px;
+}
+.left{
+    flex:1;
+    }
+
+.right{
+    flex:1;
+    border:1px solid gray;
+    padding:10px;
+    }
+
+li{
+    padding:10px;
+    border-bottom:1px solid #ccc;
+    cursor:pointer;
+    }
+
+.button {
+    padding: 10px 20px;
+    margin-top: 15px;
+    background: orange;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    align-self: baseline;
+}
+/* About */
+.about {
+    padding: 40px;
+    text-align: center;
+}
+
+.about img {
+    width: 300px;
+    margin-top: 20px;
+}
+
+/* Courses */
+.courses {
+    padding: 40px;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.course-card {
+    background: white;
+    margin: 15px;
+    padding: 20px;
+    display: inline-block;
+    width: 250px;
+    box-shadow: 0 0 10px gray;
+}
+.course-card-img{
+    width: 300px;
+    margin-top: 20px;
+    overflow: hidden;
+
+}
+
+/* Contact */
+.contact {
+    padding: 40px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background: #002147;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
