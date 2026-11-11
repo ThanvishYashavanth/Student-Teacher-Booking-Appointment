@@ -1,0 +1,9 @@
+# Local Firebase configuration (contains project-specific values)
+js/firebase-config.js
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
